@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ENROLMENT FORM</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div id="title">REGISTRATION FORM</div>
+            <div class="form">
+                <div class="inputfield">
+                    <label>FULL NAME</label>
+                    <input type="text" class="input" id="name">
+                </div>
+                <div class="inputfield">
+                    <label>FATHER'S NAME</label>
+                    <input type="text" class="input" id="Fname">
+                </div>
+                <div class="inputfield">
+                    <label>DOB</label>
+                    <input type="date" class="input" id="age">
+                </div>
+                <div class="inputfield">
+                    <label>PHONE NO</label>
+                    <input type="text" class="input" id="NO">
+                </div>
+                <div class="inputfield">
+                    <label>EMAIL</label>
+                    <input type="email" class="input" id="email">
+                </div>
+                
+                <div class="inputfield">
+                    <input type="submit" value="REGISTER NOW" class="button" onclick="AddRow()">
+                </div>
+            </div>
+        </div>
+        <div class="table">
+            <table border="4" id="show">
+                <thead>
+                    <tr>
+                        <th>FULL NAME</th>
+                        <th>FATHER'S NAME</th>
+                        <th>DOB</th>
+                        <th>PHONE NO.</th>
+                        <th>EMAIL</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
